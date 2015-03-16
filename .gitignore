@@ -1,10 +1,37 @@
-build.*
-.DS_Store*
+#Ignore Sublime Settings files
+*sublime*
+
+#Config files for Sublime Text
+config/*
+
+#deploy logs
+deploy/*
+
+#Logfiles
+*.log
+
+#node modules
+node_modules/*
+
+#Resultfiles from Tests
+TestResults.html
+*.tap
+
+#Eclipse settings files
 .settings/*
-.project
-ehthumbs.db
-Icon?
-package.xml
+
+#Referenced Packages for eclipse
+Reference*/*
+
+#Schema placeholder for eclipse
 salesforce.schema
-Thumbs.db
-Referenced Packages/*
+
+#Eclipse project file
+.project
+
+#Ignoring unsupported objects in build
+src/layouts/FeedItem*
+src/layouts/SocialPost*
+
+#Removing DS Store
+.DS_Store
